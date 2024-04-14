@@ -1,33 +1,62 @@
-#PageTitle {
-    background-color: rosybrown;
-    text-align: center;
+.PageTitle {
+  background-color: rosybrown;
+  text-align: center;
 }
 
 #FullPage {
-    background-color: 
-    lightcyan;
-    text-align: left;
+  background-color: lightcyan;
+  text-align: left;
 }
 
 #MainTitle {
-    text-align: center;
+  text-align: center;
 }
 
 .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .horizontal-list {
-    list-style-type: none; 
-    padding: 0;
-    margin: 0;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 .horizontal-list li {
-    display: inline-block;
-    margin-right:90px;;
+  display: inline-block;
+  margin-right: 90px;
 }
 
+/* style the table borders */
+table,
+th,
+td {
+  border: 1px solid;
+  border-collapse: collapse;
+  padding: 10px;
+  margin: 10px 10%;
+}
 
+/* align the table */
+.reviewTable {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+/* color the table */
+.reviewTable .reviewCol {
+  background-color: burlywood;
+}
+
+.reviewTable tr {
+  background-color: white;
+  transition-duration: 1.2s;
+}
+
+/* color each row when the mouse hovers over it */
+.reviewTable tr:hover {
+  background-color: bisque;
+  transition-duration: 0.2s;
+}
