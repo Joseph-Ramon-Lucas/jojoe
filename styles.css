@@ -8,8 +8,8 @@
   text-align: left;
 }
 
-#MainTitle {
-  text-align: center;
+.main-title {
+    text-align: center;
 }
 
 .container {
@@ -43,6 +43,11 @@ td {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.image-frame {
+    border: 10px solid black;
+    padding: 10px;
+    /* border-radius is to make it round */
 }
 
 /* color the table */
