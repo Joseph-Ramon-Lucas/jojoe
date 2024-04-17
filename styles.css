@@ -62,6 +62,6 @@ td {
 
 /* color each row when the mouse hovers over it */
 .reviewTable tr:hover {
-  background-color: rgb(160, 131, 36);
+  background-color: rgb(240, 213, 126);
   transition-duration: 0.2s;
 }
