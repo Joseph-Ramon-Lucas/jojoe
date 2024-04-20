@@ -28,6 +28,8 @@
   margin-right: 90px;
 }
 
+
+
 /* style the table borders */
 table,
 th,
@@ -70,9 +72,16 @@ td {
 #aboutJohanna {
   text-align: center;
 }
+#aboutJohanna ul li {
+  list-style-type: none;
+}
 
 #aboutJoseph {
   text-align: center;
+}
+
+#aboutJoseph ul li {
+  list-style-type: none;
 }
 
 
