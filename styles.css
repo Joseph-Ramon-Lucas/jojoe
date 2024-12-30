@@ -8,8 +8,8 @@
   text-align: left;
 }
 
-#MainTitle {
-  text-align: center;
+.main-title {
+    text-align: center;
 }
 
 .container {
@@ -28,6 +28,8 @@
   margin-right: 90px;
 }
 
+
+
 /* style the table borders */
 table,
 th,
@@ -44,6 +46,11 @@ td {
   justify-content: center;
   align-items: center;
 }
+.image-frame {
+    border: 10px solid black;
+    padding: 10px;
+    /* border-radius is to make it round */
+}
 
 /* color the table */
 .reviewTable .reviewCol {
@@ -57,6 +64,24 @@ td {
 
 /* color each row when the mouse hovers over it */
 .reviewTable tr:hover {
-  background-color: bisque;
+  background-color: rgb(240, 213, 126);
   transition-duration: 0.2s;
 }
+
+
+#aboutJohanna {
+  text-align: center;
+}
+#aboutJohanna ul li {
+  list-style-type: none;
+}
+
+#aboutJoseph {
+  text-align: center;
+}
+
+#aboutJoseph ul li {
+  list-style-type: none;
+}
+
+
